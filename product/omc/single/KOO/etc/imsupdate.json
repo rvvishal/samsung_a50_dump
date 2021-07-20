@@ -1,0 +1,25 @@
+{
+  "update_version": 7,
+  "min_swver": "",
+  "note": "KOO Ims configs for specific models.",
+  "imsprofile_update": {
+    "profile": [
+    ],
+    "remove_profile": [
+    ]
+  },
+  "globalsettings_update": {
+    "defaultsetting": {
+    },
+    "nohitsetting": {
+    },
+    "globalsetting": [
+    ]
+  },
+  "mnomap_update": {
+      "remove_mnomap": [
+      ],
+      "add_mnomap": [
+      ]
+  }
+}

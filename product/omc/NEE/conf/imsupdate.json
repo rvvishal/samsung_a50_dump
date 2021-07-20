@@ -1,0 +1,14 @@
+{
+  "update_version": 1,
+  "note": "Disable VoLTE and ViLTE for Telepost_GL",
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "Telepost_GL",
+        "enableIms": false,
+        "enableServiceVolte": false,
+        "enableServiceVilte": false
+      }
+    ]
+  }
+}

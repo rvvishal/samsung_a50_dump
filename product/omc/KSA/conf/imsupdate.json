@@ -1,0 +1,36 @@
+{
+  "update_version": 1,
+  "min_swver": "",
+  "note": "Call forwarding toast for STC and Zain",
+  "imsprofile_update": {
+    "profile": [
+      {
+        "name": "STC VoLTE",
+        "mnoname": "STC_SA",
+        "support_incoming_history_info": true,
+        "notify_history_info": "toast_only"
+      },
+      {
+        "name": "Zain KSA VoLTE",
+        "mnoname": "Zain_SA",
+        "notify_history_info": "redirect_number"
+      }
+    ],
+    "remove_profile": [
+    ]
+  },
+  "globalsettings_update": {
+    "defaultsetting": {
+    },
+    "nohitsetting": {
+    },
+    "globalsetting": [
+    ]
+  },
+  "mnomap_update": {
+      "remove_mnomap": [
+      ],
+      "add_mnomap": [
+      ]
+  }
+}

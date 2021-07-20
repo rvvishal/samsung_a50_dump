@@ -1,0 +1,15 @@
+{
+  "note": "Virgin Mobile IMS Service",
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "Virgin_GB",
+        "enableIms": true,
+        "enableServiceVolte": false,
+        "enableServiceVowifi": true,
+        "enableServiceVilte": false,
+        "enableServiceSmsip": true
+      }
+    ]
+  }
+}

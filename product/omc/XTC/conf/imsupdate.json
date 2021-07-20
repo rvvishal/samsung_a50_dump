@@ -1,0 +1,14 @@
+{
+  "note": "1st commercialization for DITO operator",
+  "imsswitch_update" : {
+    "imsswitch": [
+      {
+        "mnoname":"DITO_PH",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceVilte": true,
+        "enableServiceSmsip": true
+      }
+    ]
+  }
+}

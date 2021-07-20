@@ -1,0 +1,18 @@
+{
+    "note": "Add imsupdate for SM-A505FN with carrier = UYO",
+    "imsswitch_update": {
+        "imsswitch": [
+            {
+                "mnoname": "Claro_PY",
+                "enableIms": false,
+                "enableServiceRcs": false,
+                "enableServiceRcschat": false
+            },
+            {
+                "mnoname": "Claro_UY",
+                "enableServiceRcs": false,
+                "enableServiceRcschat": false
+            }
+        ]
+    }
+}

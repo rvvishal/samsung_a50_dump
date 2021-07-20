@@ -1,0 +1,26 @@
+{
+  "update_version": 1,
+  "note": "enable IMS for LMT",
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "LMT_LV",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceVilte": true
+      }
+    ]
+  },
+  "imsprofile_update": {
+    "profile": [
+      {
+        "name": "LMT Latvia IMS",
+        "mnoname": "LMT_LV",
+        "enable_evs_codec": true,
+        "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+        "evs_bit_rate_send": "5.9-24.4",
+        "evs_bit_rate_receive": "5.9-24.4"
+      }
+    ]
+  }
+}

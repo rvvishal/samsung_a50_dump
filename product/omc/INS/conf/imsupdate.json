@@ -1,0 +1,19 @@
+{
+  "update_version": 2,
+  "note": "ImsSwitch update for Vowifi for Vodafone and IDEA",
+  "imsswitch_update":
+  {
+    "defaultswitch": {
+    },
+    "imsswitch": [
+      {
+        "mnoname": "Vodafone_IN",
+        "enableServiceVowifi": true
+      },
+      {
+        "mnoname": "IDEA_IN",
+        "enableServiceVowifi": true
+      }
+    ]
+  }
+}

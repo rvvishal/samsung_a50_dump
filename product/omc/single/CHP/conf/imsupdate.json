@@ -1,0 +1,21 @@
+{
+    "note": "Add imsupdate for SM-A505FN with carrier = CHP",
+    "imsswitch_update": {
+        "imsswitch": [
+            {
+                "mnoname": "Entel_BO",
+                "enableIms": false,
+                "enableServiceVolte": false,
+                "enableServiceVilte": false,
+                "enableServiceSmsip": false
+            },
+            {
+                "mnoname": "Tigo_BO",
+                "enableIms": false,
+                "enableServiceVolte": false,
+                "enableServiceVilte": false,
+                "enableServiceSmsip": false
+            }
+        ]
+    }
+}

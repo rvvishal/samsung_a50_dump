@@ -1,0 +1,20 @@
+{
+    "note": "Add imsupdate for SM-A505FN with carrier = TTT",
+    "imsswitch_update": {
+        "imsswitch": [
+            {
+                "mnoname": "Aliv_BS",
+                "enableIms": false,
+                "enableServiceVolte": false,
+                "enableServiceVilte": false,
+                "enableServiceSmsip": false
+            },
+            {
+                "mnoname": "Cable_PA",
+                "enableIms": false,
+                "enableServiceVolte": false,
+                "enableServiceVowifi": false
+            }
+        ]
+    }
+}

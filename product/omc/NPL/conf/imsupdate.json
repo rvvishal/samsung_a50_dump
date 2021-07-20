@@ -1,0 +1,16 @@
+{
+  "update_version": 1,
+  "min_swver": "",
+  "note": "Disable IMS for Namaste Nepal",
+  "imsswitch_update" : {
+    "imsswitch": [
+       {
+         "mnoname":"Namaste_NP",
+         "enableIms": false,
+         "enableServiceVolte": false,
+         "enableServiceVilte": false,
+         "enableServiceSmsip": false
+       }
+    ]
+  }
+}

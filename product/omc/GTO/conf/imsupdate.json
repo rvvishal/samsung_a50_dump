@@ -1,0 +1,17 @@
+{
+    "update_version": 1,
+    "min_swver": "",
+    "note": "Add imsupdate for SM-N985F with carrier = GTO",
+    "imsswitch_update": {
+        "imsswitch": [
+            {
+                "mnoname": "Movistar_PA",
+                "enableIms": false,
+                "enableServiceVolte": false,
+                "enableServiceVowifi": false,
+                "enableServiceRcs": false,
+                "enableServiceRcschat": false
+            }
+        ]
+    }
+}

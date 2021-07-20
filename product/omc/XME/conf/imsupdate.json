@@ -1,0 +1,41 @@
+{
+  "update_version": 1,
+  "note": "enable SmsoIP for UMobile_MY",
+  "globalsettings_update": 
+  {
+    "defaultsetting": {
+    },
+    "nohitsetting": {
+    },
+    "globalsetting": [
+      {
+        "mnoname": "UMobile_MY",
+        "enable_default_sms_fallback": true,
+        "voice_csfb_error_code_list": [403, 500, 503]
+      }
+    ]
+  },
+  "imsprofile_update": {
+    "profile": [
+      {
+        "name": "U-Mobile VoWifi",
+        "mnoname": "UMobile_MY",
+        "mss_size": 1140,
+        "ringing_timer": 120,
+        "ringback_timer": 120,
+        "session_expires": 1800,
+        "enable_gruu": false,
+        "network": [
+          {
+            "type": "lte,wifi",
+            "services": [
+              "mmtel",
+              "smsip"
+          ],
+          "enabled": true
+          }
+        ]
+      }
+    ]
+  }
+}

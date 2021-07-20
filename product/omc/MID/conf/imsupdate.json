@@ -1,0 +1,23 @@
+{
+  "note": "[P201103-04633][G988B/Jordan/MID] IMS Enabled",
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "Alfa_LB",
+        "enableIms": false,
+        "enableServiceVolte": false,
+        "enableServiceVowifi": false,
+        "enableServiceVilte": false,
+        "enableServiceSmsip": false
+      },
+      {
+        "mnoname": "Touch_LB",
+        "enableIms": false,
+        "enableServiceVolte": false,
+        "enableServiceVowifi": false,
+        "enableServiceVilte": false,
+        "enableServiceSmsip": false
+      }
+    ]
+  }
+}
