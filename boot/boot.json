@@ -1,0 +1,33 @@
+{
+  "info" : {
+    "output" : "boot.img",
+    "json" : "boot.json",
+    "headerVersion" : 1,
+    "headerSize" : 1648,
+    "loadBase" : 0,
+    "tagsOffset" : 268435712,
+    "board" : "SRPRL05B009KU",
+    "pageSize" : 2048,
+    "cmdline" : "",
+    "osVersion" : "11.0.0",
+    "osPatchLevel" : "2021-07-00",
+    "hash" : "a7r3a78TJ3Qv2oKYo1gDMUD2b+4AAAAAAAAAAAAAAAA=",
+    "verify" : "VB2.0 PASS",
+    "imageSize" : 57671680
+  },
+  "kernel" : {
+    "file" : "build/unzip_boot/kernel",
+    "position" : 2048,
+    "size" : 30470156,
+    "loadOffset" : 268468224
+  },
+  "ramdisk" : {
+    "file" : null,
+    "position" : 30474240,
+    "size" : 0,
+    "loadOffset" : 0
+  },
+  "secondBootloader" : null,
+  "recoveryDtbo" : null,
+  "dtb" : null
+}
